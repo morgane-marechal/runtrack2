@@ -50,7 +50,6 @@ for ($i=0; isset($str[$i]); $i++) {
     };
 }
 
-echo $nbConsomne;
 ?>
 
 <table>
@@ -59,11 +58,7 @@ echo $nbConsomne;
             <th scope="col">Voyelles</th>
     </tr>
     <tr>
-            <th scope="row">Nombre de consomnes"</th>
             <td><?php echo $nbConsomne; ?></td>
-    </tr>
-    <tr>
-            <th scope="row">Nombre de voyelles</th>
             <td><?php echo $nbVoyelle; ?></td>
     </tr>
 </table>
