@@ -22,12 +22,29 @@
             
             echo $hauteur."<br>";
             echo $largeur."<br>";
-            
-            echo "<pre>";
+       
+
+ 
+
+    echo "<pre>";
+        for($p=0; $p<=$largeur/2; $p++){
+            echo "&nbsp";
+
+                for($r=0; $r<=($largeur/2)-$p-1; $r++){
+                    echo "&nbsp";
+                }
+                echo "/";
+                for($s=1; $s<=$p*2; $s++){
+                    echo "_";
+                }
+                echo"\\";
+                echo "<br>";
+        }
             for($i=0; $i<=$hauteur; $i++){
                 if($i==0){
+                    echo "&nbsp";
                     for($j=0; $j<=$largeur; $j++){
-                        echo "_";
+                        echo "&nbsp";
                     }
                     echo "<br>";
                 } elseif($i==$hauteur){
@@ -48,7 +65,8 @@
                 }
             }
             echo "</pre>";
-            ?>
+        
+        ?>
         
 
 </html>
