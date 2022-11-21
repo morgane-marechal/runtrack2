@@ -52,7 +52,7 @@
 
                 break;
             case "style3":
-                echo "Choix du style 3";
+                echo "<h2>Choix du style 3 : Le style retro-pixel !</h2>";
                 echo '<link rel="stylesheet" href="style3.css">';
                 break;
         }

@@ -7,7 +7,39 @@ body{
     color:red;
   }
 
+  h2, h1{
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: color;
+    animation-duration: 1s;
+
+  }
+
+  @keyframes color{
+    from {
+        color:red;
+      }
+    
+      to {
+        color:yellow;
+      }
+  }
+
+  @keyframes bordercolor{
+    from {
+        border:solid 1px red;
+      }
+    
+      to {
+        border:solid 1px yellow;
+      }
+  }
+
   form{
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: bordercolor;
+    animation-duration: 1s;
     border:solid 1px;
     height:40px;
     text-align: center;
@@ -50,6 +82,10 @@ input{
     padding:5%;
     text-align: justify;
     box-shadow: 1px 1px 10px red;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: bordercolor;
+    animation-duration: 1s;
 }
 
 #contenu:hover{
