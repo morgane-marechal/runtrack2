@@ -46,6 +46,9 @@
                 <source src="5Keer.mp3" type="audio/mpeg">
               Your browser does not support the audio element.
                 </audio>';
+                echo '<link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">';
 
                 break;
             case "style3":
