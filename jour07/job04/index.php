@@ -23,6 +23,7 @@ function calcule($a, $operation, $b){
 
     }
 
+    // ----test-----
     $a = 50;
     $b = 12;
     $operation = "-";
@@ -30,7 +31,7 @@ function calcule($a, $operation, $b){
     $calcul1 = calcule($a, $operation, $b);
     echo $calcul1;
     echo "\n";
-    $calcul2 = calcule(17, "*",2);
+    $calcul2 = calcule(17, "/",2);
     echo $calcul2;
 
 ?>
