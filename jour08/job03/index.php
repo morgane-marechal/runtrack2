@@ -1,6 +1,10 @@
 <?php
 session_start();  
 
+if(isset($_POST["reset"])){
+    $_SESSION['affiche_prenom']=[];
+}
+
 if (!isset($_SESSION["affiche_prenom"])) {
     $_SESSION['affiche_prenom'] = [];
 }
@@ -18,9 +22,16 @@ if(isset($_POST["prenom"])) {
 }
 ?>
 
+
+
 <form action="" method="post">
 <input type="text" value="prenom" name="prenom"></input>   
 <input type="submit" value="Envoyer"></input>
+</form>
+
+<br>
+<form action="" method="post">
+<input type="submit" value="Reset" name="reset"></input>
 </form>
 
 <?php
