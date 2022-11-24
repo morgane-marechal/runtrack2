@@ -1,1 +1,1 @@
-SELECT nom, capacite FROM salles;
+SELECT * FROM `salles` ORDER BY `salles`.`capacite` DESC

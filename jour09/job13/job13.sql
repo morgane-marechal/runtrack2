@@ -1,1 +1,1 @@
-SELECT nom, capacite FROM salles;
+SELECT AVG(capacite) FROM salles
