@@ -1,1 +1,1 @@
-SELECT nom, capacite FROM salles;
+SELECT * FROM étudiants WHERE naissance < '2004-01-01';

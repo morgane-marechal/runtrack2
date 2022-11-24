@@ -1,1 +1,1 @@
-SELECT nom, capacite FROM salles;
+SELECT prenom, nom, naissance FROM étudiants WHERE sexe = 'femme';

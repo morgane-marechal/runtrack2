@@ -1,1 +1,1 @@
-SELECT nom, capacite FROM salles;
+SELECT prenom FROM étudiants WHERE prenom LIKE 't%';
